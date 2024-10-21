@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(174, 174, 174);
+    padding: 10px 30px;
+  }
+  .headerList{
+    display: flex;
+    align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  .logo{
+    width: 80px;
+    border-radius: 50%;
+    border: 2px dashed black;
+  }
